@@ -346,7 +346,7 @@
               "ip"           : "www.culture.gouv.fr/178.33.22.50",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "159 >= 60 days"
+              "finding"      : "152 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,21 +500,21 @@
               "ip"           : "www.culture.gouv.fr/178.33.22.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+3373 seconds from localtime"
+              "finding"      : "+3323 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.culture.gouv.fr/178.33.22.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1737852988"
+              "finding"      : "1738457748"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.culture.gouv.fr/178.33.22.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3374 seconds"
+              "finding"      : "3324 seconds"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -522,7 +522,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "x-forwarded-for: 172.183.159.79; (check if it's your IP address or e.g. a cluster IP)"
+              "finding"      : "x-forwarded-for: 74.235.134.179; (check if it's your IP address or e.g. a cluster IP)"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -649,7 +649,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-forwarded-for: 172.183.159.79;"
+              "finding"      : "x-forwarded-for: 74.235.134.179;"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1148,6 +1148,6 @@
               "ip"           : "www.culture.gouv.fr/178.33.22.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "75"
+              "finding"      : "69"
           }
 ]
