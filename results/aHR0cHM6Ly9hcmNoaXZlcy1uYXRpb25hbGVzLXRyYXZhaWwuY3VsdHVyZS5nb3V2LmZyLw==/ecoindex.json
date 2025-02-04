@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://archives-nationales-travail.culture.gouv.fr/",
+        "size": 1716.267,
+        "nodes": 839,
+        "requests": 57,
+        "grade": "D",
+        "score": 46.0,
+        "ges": 2.08,
+        "water": 3.12,
+        "ecoindex_version": "5.4.2",
+        "date": "2025-02-04 10:20:20.192688",
+        "page_type": null
+    }
+]
