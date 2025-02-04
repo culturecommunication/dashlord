@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.culture.fr/franceterme",
+        "size": 624.137,
+        "nodes": 538,
+        "requests": 19,
+        "grade": "C",
+        "score": 69.0,
+        "ges": 1.62,
+        "water": 2.43,
+        "ecoindex_version": "5.4.2",
+        "date": "2025-02-04 10:30:20.841468",
+        "page_type": null
+    }
+]
