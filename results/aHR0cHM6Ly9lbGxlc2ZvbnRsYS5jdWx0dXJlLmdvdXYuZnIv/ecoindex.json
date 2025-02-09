@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://ellesfontla.culture.gouv.fr/",
-        "size": 12736.872,
+        "size": 12736.856,
         "nodes": 814,
         "requests": 72,
         "grade": "E",
@@ -11,7 +11,7 @@
         "ges": 2.26,
         "water": 3.39,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-09 01:18:59.897362",
+        "date": "2025-02-09 02:48:43.752623",
         "page_type": "website"
     }
 ]
