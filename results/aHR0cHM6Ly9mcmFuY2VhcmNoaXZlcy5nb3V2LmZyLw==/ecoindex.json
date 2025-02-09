@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://francearchives.gouv.fr/",
-        "size": 6019.643,
+        "size": 5349.615,
         "nodes": 720,
         "requests": 44,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 2.06,
         "water": 3.09,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-04 10:16:10.771685",
+        "date": "2025-02-09 01:40:07.844486",
         "page_type": "website"
     }
 ]
