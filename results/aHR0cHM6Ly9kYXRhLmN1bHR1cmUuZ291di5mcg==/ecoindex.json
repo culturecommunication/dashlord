@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://data.culture.gouv.fr",
-        "size": 3224.208,
+        "size": 3220.03,
         "nodes": 384,
         "requests": 59,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-04 10:54:40.604809",
+        "date": "2025-02-09 02:06:40.046500",
         "page_type": null
     }
 ]
