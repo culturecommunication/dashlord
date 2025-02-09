@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://archeologie.culture.gouv.fr/",
-        "size": 5347.661,
+        "size": 5347.801,
         "nodes": 695,
         "requests": 65,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 2.14,
         "water": 3.21,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-04 09:49:55.737849",
+        "date": "2025-02-09 01:15:16.670157",
         "page_type": null
     }
 ]

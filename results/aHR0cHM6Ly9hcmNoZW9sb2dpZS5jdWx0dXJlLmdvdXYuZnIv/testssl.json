@@ -297,7 +297,7 @@
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0387EED5870BFA7A9E0CC8809CEF2DFE9D0B"
+              "finding"      : "04A5FF48A3C0394AC1E4BE51999FEFF91E4A"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +311,21 @@
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "8484BDF52993217AC3FEF79826E62BD22027F6AF"
+              "finding"      : "5E76CF67AA0FFE3CED56ED6B9BAD915A479CDF4F"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "460A96C74AC3028664947B14923DF356DCD588DC2E5D6A179AA1EAA58B6B7CCE"
+              "finding"      : "61360B575B0B5E979EA68701C924DA8931A3B29D30AFC7424F2B4B5185B54224"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFBzCCA++gAwIBAgISA4fu1YcL+nqeDMiAnO8t/p0LMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQxMjA4MjI1MjUzWhcNMjUwMzA4MjI1MjUyWjAmMSQwIgYDVQQDExthcmNoZW9sb2dpZS5jdWx0dXJlLmdvdXYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRf+I8BKiQTOaJbWgQmSfm1yW7ItqfL53J3ReWiT07L368xGy02vCJqxAuDoDNeGCtco9yN1JFWyEVqxHAK+dtviBQED0eOiaaRFfuRdiC8yN1s9z3U/qTVYJTrx6iwQ5DY2/WVu0w8OxqoNQhPP5q4vUqoBQFqO7jtrrYr0olgqD8cQOwMANcjdwRJXXPiXxOLzvGAL+0zRUq5+R/cqcxYfs+sdS2kQBUmUHyGPZZlvEZQQ7fwrWQtHtYDrd2YCV8U09yw200p0lCLQTwqXtwDPn3N1TbagRVbTQChB0/y6cWwuByHxpAynP8dOouBY+maqTNgdjyGdinsaM/n8gpAgMBAAGjggIgMIICHDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLwvK/Teu8ToJZst1vAC22lM+fEjMB8GA1UdIwQYMBaAFLu8w0el5LypxsOkcgwQjaI14cjoMFcGCCsGAQUFBwEBBEswSTAiBggrBgEFBQcwAYYWaHR0cDovL3IxMC5vLmxlbmNyLm9yZzAjBggrBgEFBQcwAoYXaHR0cDovL3IxMC5pLmxlbmNyLm9yZy8wJgYDVR0RBB8wHYIbYXJjaGVvbG9naWUuY3VsdHVyZS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHYAouMK5EXvva2bfjjtR2d3U9eCW4SU1yteGyzEuVCkR+cAAAGTqK9VqgAABAMARzBFAiEAisOprhDyqzhTKJvPEIwHOJ4NL4aycu3C1HjBRI8EVPMCICRN94NTKkJFOuvg/wU3QYJwsDbTKzgMd/zzbntNrrlUAHcAzPsPaoVxCWX+lZtTzumyfCLphVwNl422qX5UwP5MDbAAAAGTqK9VuwAABAMASDBGAiEA9dVYlXmuzvTJ1aNj3Aq/jntzQ7eYxUkw6faf/G+WgjYCIQDaTebtJeDzoR0liiYhIUKckRymTuQ710ov2XFLTQ/nMTANBgkqhkiG9w0BAQsFAAOCAQEAWnQ4Egd3hb5n8/OrGa6cNVz/hpes9Kd1ws6oDKJKKb6eUWfLov2xKubrbnD0NHwqTZgkCuYbD77vs+kMALWP9nUPPezXDsqBiI8vO5hSjMnE/e0rPepoUk4w/oB5OkJpqJ+/cD/JEuG7Uah/wWHs1NuVVEi0cNjXeKJ4um1onR8bWpHFILzK52EpdL6Fr8dFtvYoTMnFe1iMrcJiNw+JzlxO+gCc2wOMJKn8B/KdPa/6PR8fHkl4vb/oFnDJHZHHybWCFQk0QGCAytV96vQA+Ha+GapYj6IvReSe6BDQFcgWQ7n9+u1TfGU8+yehV13+bpKSgHbGAOycKqwXRZOUig==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFBjCCA+6gAwIBAgISBKX/SKPAOUrB5L5RmZ/v+R5KMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjUwMjA2MjI1MjQzWhcNMjUwNTA3MjI1MjQyWjAmMSQwIgYDVQQDExthcmNoZW9sb2dpZS5jdWx0dXJlLmdvdXYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRf+I8BKiQTOaJbWgQmSfm1yW7ItqfL53J3ReWiT07L368xGy02vCJqxAuDoDNeGCtco9yN1JFWyEVqxHAK+dtviBQED0eOiaaRFfuRdiC8yN1s9z3U/qTVYJTrx6iwQ5DY2/WVu0w8OxqoNQhPP5q4vUqoBQFqO7jtrrYr0olgqD8cQOwMANcjdwRJXXPiXxOLzvGAL+0zRUq5+R/cqcxYfs+sdS2kQBUmUHyGPZZlvEZQQ7fwrWQtHtYDrd2YCV8U09yw200p0lCLQTwqXtwDPn3N1TbagRVbTQChB0/y6cWwuByHxpAynP8dOouBY+maqTNgdjyGdinsaM/n8gpAgMBAAGjggIfMIICGzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLwvK/Teu8ToJZst1vAC22lM+fEjMB8GA1UdIwQYMBaAFLu8w0el5LypxsOkcgwQjaI14cjoMFcGCCsGAQUFBwEBBEswSTAiBggrBgEFBQcwAYYWaHR0cDovL3IxMC5vLmxlbmNyLm9yZzAjBggrBgEFBQcwAoYXaHR0cDovL3IxMC5pLmxlbmNyLm9yZy8wJgYDVR0RBB8wHYIbYXJjaGVvbG9naWUuY3VsdHVyZS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHYAzPsPaoVxCWX+lZtTzumyfCLphVwNl422qX5UwP5MDbAAAAGU3ay/cQAABAMARzBFAiAoM/TCS79knvdq6aBXLq6Bm0CvRYf4o1LUfknYwcKe3gIhAJLA16dAW3hMopx4dHyHoR39POaLDaE+kQTR6qfEmuBiAHYAzxFW7tUufK/zh1vZaS6b6RpxZ0qwF+ysAdJbd87MOwgAAAGU3ay/oQAABAMARzBFAiB/LcTZEOX+vmiWDNGmr4t+OZCrJT0cPSIuCXtaHWQ5DwIhAN1Llnnyt2j8nSyAVIL+8V/mmnZDCXgghgCsCZHxWkAyMA0GCSqGSIb3DQEBCwUAA4IBAQCeRGUB1Qa7FHQdBT9WugZq31CA8J1Rt1rppUom4u1UNSMj0pndl8128z/MCC5szEwfeECizKykMJC0LGAp26QUQlxUZdwAsmKizNxOmUv6kJYhgcbM7KJj+a4nrSjkD+0mpO9pJz2E2Ez8sCK8GMtxQvtyJhp11pmWWiOxaYqhzsK+qr0OQMujpjXTrGSjvUadFp1VTCDiz76pfOzqMor4deQ8lzuq8/jD/LQmG9W1D3NNm5+PMnCvs8xPR4ZGkOTAs8nc3DFnTUsvWcIUd+1G03JUV4rOLkrO4ab69+ZBNrElPrRuPWr/QcRGKCjhEU0bH9VcKaUnv1WuO1k8UpKm\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -374,21 +374,21 @@
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "32 >= 30 days"
+              "finding"      : "87 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-12-08 22:52"
+              "finding"      : "2025-02-06 22:52"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-03-08 22:52"
+              "finding"      : "2025-05-07 22:52"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -528,21 +528,21 @@
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+3246 seconds from localtime"
+              "finding"      : "+985 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1738663331"
+              "finding"      : "1739064456"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3246 seconds"
+              "finding"      : "985 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -743,7 +743,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=460A96C74AC3028664947B14923DF356DCD588DC2E5D6A179AA1EAA58B6B7CCE"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=61360B575B0B5E979EA68701C924DA8931A3B29D30AFC7424F2B4B5185B54224"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1119,6 +1119,6 @@
               "ip"           : "archeologie.culture.gouv.fr/51.159.155.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "90"
+              "finding"      : "102"
           }
 ]
