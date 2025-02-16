@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://basedeslieux.culture.gouv.fr",
-        "size": 4313.748,
-        "nodes": 2409,
+        "size": 4323.174,
+        "nodes": 2422,
         "requests": 59,
         "grade": "E",
         "score": 26.0,
         "ges": 2.48,
         "water": 3.72,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-09 00:44:30.538336",
+        "date": "2025-02-16 00:46:31.552159",
         "page_type": null
     }
 ]
