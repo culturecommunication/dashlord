@@ -20,13 +20,13 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az1945-156:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1938-506:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="font-weight:bold;">Testing all IPv4 addresses (port 443): </span>151.101.66.216 151.101.130.216 151.101.2.216 151.101.194.216
+<span style="font-weight:bold;">Testing all IPv4 addresses (port 443): </span>151.101.66.216 151.101.194.216 151.101.2.216 151.101.130.216
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2025-02-16 02:52:35                --&gt;&gt; 151.101.66.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-23 01:24:39                --&gt;&gt; 151.101.66.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
 
- Further IP addresses:   151.101.130.216 151.101.194.216 151.101.2.216 
+ Further IP addresses:   151.101.130.216 151.101.2.216 151.101.194.216 
  rDNS (151.101.66.216):  --
  Service detected:       HTTP
 
@@ -96,9 +96,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>041917D2F9BABC3259C2878F9359F41732F3 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 38961F1BA97C1CD0390C0969A77D8FAF74E5BB40
-                              SHA256 F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E
+<span style="font-weight:bold;"> Serial                       </span>03CD9EE48BF6C17159C5D0FAB9673E70EA8D (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 59DB08AD35D629DADAD024DAA958B406BDCD7664
+                              SHA256 187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>ellesfontla.culture.gouv.fr </i> (CN in response to request w/o SNI: <i>wrong-cert.invalid </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>ellesfontla.culture.gouv.fr
                               master-7rqtwti-tl34jw4qs4bu2.fr-3.platformsh.site
@@ -106,7 +106,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">36 &gt;= 30 days</span> (2024-12-24 03:06 --&gt; 2025-03-24 03:06)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">89 &gt;= 30 days</span> (2025-02-22 03:16 --&gt; 2025-05-23 03:16)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r11.o.lencr.org
@@ -133,8 +133,8 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
                               <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
                               X-XSS-Protection: 1; mode=block
-                              X-Served-By: cache-par-lfpg1960082-PAR,
-                                cache-bur-kbur8200072-BUR
+                              X-Served-By: cache-par-lfpb1150072-PAR,
+                                cache-iad-kcgs7200025-IAD
                               Referrer-Policy: strict-origin-when-cross-origin
                               Cache-Control: max-age=0, private,
                                 must-revalidate
@@ -159,7 +159,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -218,13 +218,13 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2025-02-16 02:54:16 [ 105s] --&gt;&gt; 151.101.66.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-23 01:26:19 [ 103s] --&gt;&gt; 151.101.66.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2025-02-16 02:54:16                --&gt;&gt; 151.101.130.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-23 01:26:19                --&gt;&gt; 151.101.194.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
 
- Further IP addresses:   151.101.66.216 151.101.194.216 151.101.2.216 
- rDNS (151.101.130.216): --
+ Further IP addresses:   151.101.130.216 151.101.66.216 151.101.2.216 
+ rDNS (151.101.194.216): --
  Service detected:       HTTP
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing protocols </span><u>via sockets except NPN+ALPN </u>
@@ -285,7 +285,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               &quot;application layer protocol negotiation/#16&quot;
 <span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>86400 seconds, session tickets keys seems to be rotated &lt; daily
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
-<span style="font-weight:bold;"> Session Resumption           </span>Tickets: yes, ID: no
+<span style="font-weight:bold;"> Session Resumption           </span>Tickets: yes, ID: yes
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Certificate Compression      </span>none
 <span style="font-weight:bold;"> Client Authentication        </span>none
@@ -293,9 +293,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>041917D2F9BABC3259C2878F9359F41732F3 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 38961F1BA97C1CD0390C0969A77D8FAF74E5BB40
-                              SHA256 F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E
+<span style="font-weight:bold;"> Serial                       </span>03CD9EE48BF6C17159C5D0FAB9673E70EA8D (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 59DB08AD35D629DADAD024DAA958B406BDCD7664
+                              SHA256 187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>ellesfontla.culture.gouv.fr </i> (CN in response to request w/o SNI: <i>wrong-cert.invalid </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>ellesfontla.culture.gouv.fr
                               master-7rqtwti-tl34jw4qs4bu2.fr-3.platformsh.site
@@ -303,7 +303,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">36 &gt;= 30 days</span> (2024-12-24 03:06 --&gt; 2025-03-24 03:06)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">89 &gt;= 30 days</span> (2025-02-22 03:16 --&gt; 2025-05-23 03:16)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r11.o.lencr.org
@@ -330,8 +330,8 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
                               <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
                               X-XSS-Protection: 1; mode=block
-                              X-Served-By: cache-par-lfpb1150047-PAR,
-                                cache-bur-kbur8200130-BUR
+                              X-Served-By: cache-par-lfpg1960097-PAR,
+                                cache-iad-kcgs7200076-IAD
                               Referrer-Policy: strict-origin-when-cross-origin
                               Cache-Control: max-age=0, private,
                                 must-revalidate
@@ -356,7 +356,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -415,10 +415,10 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2025-02-16 02:55:56 [ 205s] --&gt;&gt; 151.101.130.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-23 01:27:58 [ 202s] --&gt;&gt; 151.101.194.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2025-02-16 02:55:56                --&gt;&gt; 151.101.2.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-23 01:27:58                --&gt;&gt; 151.101.2.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
 
  Further IP addresses:   151.101.130.216 151.101.66.216 151.101.194.216 
  rDNS (151.101.2.216):   --
@@ -490,9 +490,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>041917D2F9BABC3259C2878F9359F41732F3 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 38961F1BA97C1CD0390C0969A77D8FAF74E5BB40
-                              SHA256 F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E
+<span style="font-weight:bold;"> Serial                       </span>03CD9EE48BF6C17159C5D0FAB9673E70EA8D (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 59DB08AD35D629DADAD024DAA958B406BDCD7664
+                              SHA256 187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>ellesfontla.culture.gouv.fr </i> (CN in response to request w/o SNI: <i>wrong-cert.invalid </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>ellesfontla.culture.gouv.fr
                               master-7rqtwti-tl34jw4qs4bu2.fr-3.platformsh.site
@@ -500,7 +500,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">36 &gt;= 30 days</span> (2024-12-24 03:06 --&gt; 2025-03-24 03:06)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">89 &gt;= 30 days</span> (2025-02-22 03:16 --&gt; 2025-05-23 03:16)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r11.o.lencr.org
@@ -527,8 +527,8 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
                               <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
                               X-XSS-Protection: 1; mode=block
-                              X-Served-By: cache-par-lfpb1150024-PAR,
-                                cache-lax-kwhp1940077-LAX
+                              X-Served-By: cache-par-lfpg1960090-PAR,
+                                cache-iad-kiad7000138-IAD
                               Referrer-Policy: strict-origin-when-cross-origin
                               Cache-Control: max-age=0, private,
                                 must-revalidate
@@ -553,7 +553,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -612,13 +612,13 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2025-02-16 02:57:36 [ 305s] --&gt;&gt; 151.101.2.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-23 01:29:37 [ 301s] --&gt;&gt; 151.101.2.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2025-02-16 02:57:36                --&gt;&gt; 151.101.194.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-23 01:29:37                --&gt;&gt; 151.101.130.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
 
- Further IP addresses:   151.101.130.216 151.101.66.216 151.101.2.216 
- rDNS (151.101.194.216): --
+ Further IP addresses:   151.101.66.216 151.101.2.216 151.101.194.216 
+ rDNS (151.101.130.216): --
  Service detected:       HTTP
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing protocols </span><u>via sockets except NPN+ALPN </u>
@@ -679,7 +679,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               &quot;application layer protocol negotiation/#16&quot;
 <span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>86400 seconds, session tickets keys seems to be rotated &lt; daily
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
-<span style="font-weight:bold;"> Session Resumption           </span>Tickets: yes, ID: no
+<span style="font-weight:bold;"> Session Resumption           </span>Tickets: yes, ID: yes
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Certificate Compression      </span>none
 <span style="font-weight:bold;"> Client Authentication        </span>none
@@ -687,9 +687,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>041917D2F9BABC3259C2878F9359F41732F3 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 38961F1BA97C1CD0390C0969A77D8FAF74E5BB40
-                              SHA256 F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E
+<span style="font-weight:bold;"> Serial                       </span>03CD9EE48BF6C17159C5D0FAB9673E70EA8D (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 59DB08AD35D629DADAD024DAA958B406BDCD7664
+                              SHA256 187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>ellesfontla.culture.gouv.fr </i> (CN in response to request w/o SNI: <i>wrong-cert.invalid </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>ellesfontla.culture.gouv.fr
                               master-7rqtwti-tl34jw4qs4bu2.fr-3.platformsh.site
@@ -697,7 +697,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">36 &gt;= 30 days</span> (2024-12-24 03:06 --&gt; 2025-03-24 03:06)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">89 &gt;= 30 days</span> (2025-02-22 03:16 --&gt; 2025-05-23 03:16)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r11.o.lencr.org
@@ -724,8 +724,8 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
                               <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
                               X-XSS-Protection: 1; mode=block
-                              X-Served-By: cache-par-lfpg1960097-PAR,
-                                cache-lax-kwhp1940114-LAX
+                              X-Served-By: cache-par-lfpg1960067-PAR,
+                                cache-iad-kcgs7200046-IAD
                               Referrer-Policy: strict-origin-when-cross-origin
                               Cache-Control: max-age=0, private,
                                 must-revalidate
@@ -750,7 +750,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F79CC64546BE2B648AD9D955C94F10BD085BE40C0935C095599F90E22A2AF86E</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=187BB02E02726F78AC57E92A8281E6BF8A906E16E782AC35AC443942991BF18D</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -809,10 +809,10 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2025-02-16 02:59:16 [ 405s] --&gt;&gt; 151.101.194.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-23 01:31:17 [ 401s] --&gt;&gt; 151.101.130.216:443 (ellesfontla.culture.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="font-weight:bold;">Done testing now all IP addresses (on port 443): </span>151.101.66.216 151.101.130.216 151.101.2.216 151.101.194.216
+<span style="font-weight:bold;">Done testing now all IP addresses (on port 443): </span>151.101.66.216 151.101.194.216 151.101.2.216 151.101.130.216
 
 </pre>
 </body>
