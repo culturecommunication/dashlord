@@ -374,7 +374,7 @@
               "ip"           : "histoiredesarts.culture.gouv.fr/143.126.211.8",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "60 >= 30 days"
+              "finding"      : "53 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -528,21 +528,21 @@
               "ip"           : "histoiredesarts.culture.gouv.fr/143.126.211.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+38031 seconds from localtime"
+              "finding"      : "+57760 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "histoiredesarts.culture.gouv.fr/143.126.211.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1739672258"
+              "finding"      : "1740277081"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "histoiredesarts.culture.gouv.fr/143.126.211.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "38031 seconds"
+              "finding"      : "57760 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -606,7 +606,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Varnish: 3768567 5379282"
+              "finding"      : "X-Varnish: 3015029 4130041"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1105,6 +1105,6 @@
               "ip"           : "histoiredesarts.culture.gouv.fr/143.126.211.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "113"
+              "finding"      : "115"
           }
 ]
