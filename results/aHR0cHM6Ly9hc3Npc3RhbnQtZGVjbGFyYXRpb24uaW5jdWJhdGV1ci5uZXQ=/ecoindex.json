@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://assistant-declaration.incubateur.net",
-        "size": 1042.532,
-        "nodes": 188,
+        "size": 1041.529,
+        "nodes": 184,
         "requests": 61,
         "grade": "B",
         "score": 72.0,
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 02:38:21.148629",
+        "date": "2025-03-02 02:37:24.709622",
         "page_type": null
     }
 ]
