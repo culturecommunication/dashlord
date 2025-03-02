@@ -353,7 +353,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "62 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -514,7 +514,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1740276689"
+              "finding"      : "1740881587"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -598,7 +598,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/185.21.194.105",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "report-uri https://sentry.incubateur.net/api/40/security/?sentry_key=5f6f9cf638ac413b82d1d9c8a9ba2025; default-src 'self' https:; script-src 'self' https: 'nonce-wxFhv9VpLQWMgsUfcpAqnw=='; img-src 'self' data: blob: https://s3.fr-par.scw.cloud/collectif-objets-development2/ https://s3.fr-par.scw.cloud/collectif-objets-staging2/ https://s3.fr-par.scw.cloud/collectif-objets-production/ https://s3.fr-par.scw.cloud/collectif-objets-public/ https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/ https://s3.eu-west-3.amazonaws.com/pop-phototeque/ https://pop-perf-assets.s3.gra.io.cloud.ovh.net/ https://collectif-objets.beta.gouv.fr/ https://stats.beta.gouv.fr; connect-src 'self' https://stats.beta.gouv.fr https://openmaptiles.geo.data.gouv.fr https://openmaptiles.data.gouv.fr https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/; object-src 'self'; font-src 'self' https: data:; child-src blob:; worker-src blob:; style-src 'self' https:; frame-src 'self' https://collectif-objets-metabase.osc-secnum-fr1.scalingo.io/ https://tube.numerique.gouv.fr/"
+              "finding"      : "report-uri https://sentry.incubateur.net/api/40/security/?sentry_key=5f6f9cf638ac413b82d1d9c8a9ba2025; default-src 'self' https:; script-src 'self' https: 'nonce-lbWaKK80GAPdASKrdud9Ag=='; img-src 'self' data: blob: https://s3.fr-par.scw.cloud/collectif-objets-development2/ https://s3.fr-par.scw.cloud/collectif-objets-staging2/ https://s3.fr-par.scw.cloud/collectif-objets-production/ https://s3.fr-par.scw.cloud/collectif-objets-public/ https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/ https://s3.eu-west-3.amazonaws.com/pop-phototeque/ https://pop-perf-assets.s3.gra.io.cloud.ovh.net/ https://collectif-objets.beta.gouv.fr/ https://stats.beta.gouv.fr; connect-src 'self' https://stats.beta.gouv.fr https://openmaptiles.geo.data.gouv.fr https://openmaptiles.data.gouv.fr https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/; object-src 'self'; font-src 'self' https: data:; child-src blob:; worker-src blob:; style-src 'self' https:; frame-src 'self' https://collectif-objets-metabase.osc-secnum-fr1.scalingo.io/ https://tube.numerique.gouv.fr/"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -1475,7 +1475,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "62 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1636,7 +1636,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1740276748"
+              "finding"      : "1740881640"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1720,7 +1720,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "report-uri https://sentry.incubateur.net/api/40/security/?sentry_key=5f6f9cf638ac413b82d1d9c8a9ba2025; default-src 'self' https:; script-src 'self' https: 'nonce-FrYMfV3TlKcRs/vVfwpJCA=='; img-src 'self' data: blob: https://s3.fr-par.scw.cloud/collectif-objets-development2/ https://s3.fr-par.scw.cloud/collectif-objets-staging2/ https://s3.fr-par.scw.cloud/collectif-objets-production/ https://s3.fr-par.scw.cloud/collectif-objets-public/ https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/ https://s3.eu-west-3.amazonaws.com/pop-phototeque/ https://pop-perf-assets.s3.gra.io.cloud.ovh.net/ https://collectif-objets.beta.gouv.fr/ https://stats.beta.gouv.fr; connect-src 'self' https://stats.beta.gouv.fr https://openmaptiles.geo.data.gouv.fr https://openmaptiles.data.gouv.fr https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/; object-src 'self'; font-src 'self' https: data:; child-src blob:; worker-src blob:; style-src 'self' https:; frame-src 'self' https://collectif-objets-metabase.osc-secnum-fr1.scalingo.io/ https://tube.numerique.gouv.fr/"
+              "finding"      : "report-uri https://sentry.incubateur.net/api/40/security/?sentry_key=5f6f9cf638ac413b82d1d9c8a9ba2025; default-src 'self' https:; script-src 'self' https: 'nonce-/ZWRAa5AK8M4HI12NfVeRQ=='; img-src 'self' data: blob: https://s3.fr-par.scw.cloud/collectif-objets-development2/ https://s3.fr-par.scw.cloud/collectif-objets-staging2/ https://s3.fr-par.scw.cloud/collectif-objets-production/ https://s3.fr-par.scw.cloud/collectif-objets-public/ https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/ https://s3.eu-west-3.amazonaws.com/pop-phototeque/ https://pop-perf-assets.s3.gra.io.cloud.ovh.net/ https://collectif-objets.beta.gouv.fr/ https://stats.beta.gouv.fr; connect-src 'self' https://stats.beta.gouv.fr https://openmaptiles.geo.data.gouv.fr https://openmaptiles.data.gouv.fr https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/; object-src 'self'; font-src 'self' https: data:; child-src blob:; worker-src blob:; style-src 'self' https:; frame-src 'self' https://collectif-objets-metabase.osc-secnum-fr1.scalingo.io/ https://tube.numerique.gouv.fr/"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -2450,7 +2450,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -2597,7 +2597,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "62 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -2751,14 +2751,14 @@
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1740276809"
+              "finding"      : "1740881694"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2842,7 +2842,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.13.145",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "report-uri https://sentry.incubateur.net/api/40/security/?sentry_key=5f6f9cf638ac413b82d1d9c8a9ba2025; default-src 'self' https:; script-src 'self' https: 'nonce-gCoPSbgn0ID3i/4x6quP+g=='; img-src 'self' data: blob: https://s3.fr-par.scw.cloud/collectif-objets-development2/ https://s3.fr-par.scw.cloud/collectif-objets-staging2/ https://s3.fr-par.scw.cloud/collectif-objets-production/ https://s3.fr-par.scw.cloud/collectif-objets-public/ https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/ https://s3.eu-west-3.amazonaws.com/pop-phototeque/ https://pop-perf-assets.s3.gra.io.cloud.ovh.net/ https://collectif-objets.beta.gouv.fr/ https://stats.beta.gouv.fr; connect-src 'self' https://stats.beta.gouv.fr https://openmaptiles.geo.data.gouv.fr https://openmaptiles.data.gouv.fr https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/; object-src 'self'; font-src 'self' https: data:; child-src blob:; worker-src blob:; style-src 'self' https:; frame-src 'self' https://collectif-objets-metabase.osc-secnum-fr1.scalingo.io/ https://tube.numerique.gouv.fr/"
+              "finding"      : "report-uri https://sentry.incubateur.net/api/40/security/?sentry_key=5f6f9cf638ac413b82d1d9c8a9ba2025; default-src 'self' https:; script-src 'self' https: 'nonce-0r+hX4Ney29CS7uyZbMGMw=='; img-src 'self' data: blob: https://s3.fr-par.scw.cloud/collectif-objets-development2/ https://s3.fr-par.scw.cloud/collectif-objets-staging2/ https://s3.fr-par.scw.cloud/collectif-objets-production/ https://s3.fr-par.scw.cloud/collectif-objets-public/ https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/ https://s3.eu-west-3.amazonaws.com/pop-phototeque/ https://pop-perf-assets.s3.gra.io.cloud.ovh.net/ https://collectif-objets.beta.gouv.fr/ https://stats.beta.gouv.fr; connect-src 'self' https://stats.beta.gouv.fr https://openmaptiles.geo.data.gouv.fr https://openmaptiles.data.gouv.fr https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/; object-src 'self'; font-src 'self' https: data:; child-src blob:; worker-src blob:; style-src 'self' https:; frame-src 'self' https://collectif-objets-metabase.osc-secnum-fr1.scalingo.io/ https://tube.numerique.gouv.fr/"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -3565,14 +3565,14 @@
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -3719,7 +3719,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "62 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -3873,14 +3873,14 @@
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1740276870"
+              "finding"      : "1740881748"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -3964,7 +3964,7 @@
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "report-uri https://sentry.incubateur.net/api/40/security/?sentry_key=5f6f9cf638ac413b82d1d9c8a9ba2025; default-src 'self' https:; script-src 'self' https: 'nonce-6/VIh6FsvWTZ61VmlXLrfQ=='; img-src 'self' data: blob: https://s3.fr-par.scw.cloud/collectif-objets-development2/ https://s3.fr-par.scw.cloud/collectif-objets-staging2/ https://s3.fr-par.scw.cloud/collectif-objets-production/ https://s3.fr-par.scw.cloud/collectif-objets-public/ https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/ https://s3.eu-west-3.amazonaws.com/pop-phototeque/ https://pop-perf-assets.s3.gra.io.cloud.ovh.net/ https://collectif-objets.beta.gouv.fr/ https://stats.beta.gouv.fr; connect-src 'self' https://stats.beta.gouv.fr https://openmaptiles.geo.data.gouv.fr https://openmaptiles.data.gouv.fr https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/; object-src 'self'; font-src 'self' https: data:; child-src blob:; worker-src blob:; style-src 'self' https:; frame-src 'self' https://collectif-objets-metabase.osc-secnum-fr1.scalingo.io/ https://tube.numerique.gouv.fr/"
+              "finding"      : "report-uri https://sentry.incubateur.net/api/40/security/?sentry_key=5f6f9cf638ac413b82d1d9c8a9ba2025; default-src 'self' https:; script-src 'self' https: 'nonce-1q291kK9cVfLOrCbl+RmJg=='; img-src 'self' data: blob: https://s3.fr-par.scw.cloud/collectif-objets-development2/ https://s3.fr-par.scw.cloud/collectif-objets-staging2/ https://s3.fr-par.scw.cloud/collectif-objets-production/ https://s3.fr-par.scw.cloud/collectif-objets-public/ https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/ https://s3.eu-west-3.amazonaws.com/pop-phototeque/ https://pop-perf-assets.s3.gra.io.cloud.ovh.net/ https://collectif-objets.beta.gouv.fr/ https://stats.beta.gouv.fr; connect-src 'self' https://stats.beta.gouv.fr https://openmaptiles.geo.data.gouv.fr https://openmaptiles.data.gouv.fr https://collectif-objets-development2.s3.fr-par.scw.cloud/ https://collectif-objets-staging2.s3.fr-par.scw.cloud/ https://collectif-objets-production.s3.fr-par.scw.cloud/ https://collectif-objets-public.s3.fr-par.scw.cloud/; object-src 'self'; font-src 'self' https: data:; child-src blob:; worker-src blob:; style-src 'self' https:; frame-src 'self' https://collectif-objets-metabase.osc-secnum-fr1.scalingo.io/ https://tube.numerique.gouv.fr/"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -4492,6 +4492,6 @@
               "ip"           : "collectif-objets.beta.gouv.fr/80.247.12.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "249"
+              "finding"      : "225"
           }
 ]
