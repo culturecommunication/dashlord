@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://compte-rendu-vif.beta.gouv.fr",
-        "size": 1916.472,
+        "size": 1916.436,
         "nodes": 271,
         "requests": 29,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.54,
         "water": 2.31,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 02:27:15.980945",
+        "date": "2025-03-02 02:28:29.790613",
         "page_type": "article"
     }
 ]
