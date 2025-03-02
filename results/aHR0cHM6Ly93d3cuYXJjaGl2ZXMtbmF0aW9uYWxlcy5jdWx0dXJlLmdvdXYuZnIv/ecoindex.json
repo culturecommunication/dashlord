@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.archives-nationales.culture.gouv.fr/",
-        "size": 1660.96,
-        "nodes": 584,
-        "requests": 55,
+        "size": 1848.293,
+        "nodes": 596,
+        "requests": 56,
         "grade": "D",
-        "score": 55.0,
-        "ges": 1.9,
-        "water": 2.85,
+        "score": 54.0,
+        "ges": 1.92,
+        "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 01:22:00.291265",
+        "date": "2025-03-02 01:22:03.694578",
         "page_type": null
     }
 ]
