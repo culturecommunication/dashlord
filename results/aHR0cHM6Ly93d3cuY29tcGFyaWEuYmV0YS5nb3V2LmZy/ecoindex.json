@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.comparia.beta.gouv.fr",
-        "size": 1935.558,
-        "nodes": 398,
-        "requests": 37,
+        "size": 1902.781,
+        "nodes": 397,
+        "requests": 36,
         "grade": "C",
         "score": 66.0,
         "ges": 1.68,
         "water": 2.52,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-23 02:23:18.890082",
+        "date": "2025-03-02 02:22:45.091455",
         "page_type": "website"
     }
 ]
